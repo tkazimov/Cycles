@@ -10,10 +10,10 @@ public class Main {
             if(year % 4 == 0){
                 System.out.println(year);
                 for (int month = 1; month <= 12; month = month + 1){
-                    System.out.println("29." + month + "." + year);
+                    String zero = month < 10 ? "0" : "";
+                    System.out.println("29." + zero + month + "." + year);
                 }
             }
         }
     }
 }
-
