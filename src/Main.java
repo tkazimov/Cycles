@@ -15,6 +15,7 @@ public class Main {
                 String zero = month < 10 ? "0" : "";
                 System.out.println("29." + zero + month + "." + year);
             }
+            // ilkin petux
         }
     }
 }
